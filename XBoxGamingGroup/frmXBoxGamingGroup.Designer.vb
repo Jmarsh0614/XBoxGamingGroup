@@ -191,9 +191,10 @@ Partial Class frmXboxGamingGrp
         'lblDisplayTotal
         '
         Me.lblDisplayTotal.AutoSize = True
+        Me.lblDisplayTotal.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblDisplayTotal.Location = New System.Drawing.Point(65, 134)
         Me.lblDisplayTotal.Name = "lblDisplayTotal"
-        Me.lblDisplayTotal.Size = New System.Drawing.Size(37, 13)
+        Me.lblDisplayTotal.Size = New System.Drawing.Size(90, 31)
         Me.lblDisplayTotal.TabIndex = 12
         Me.lblDisplayTotal.Text = "$XXX "
         '
