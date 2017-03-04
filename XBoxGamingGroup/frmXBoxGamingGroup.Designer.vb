@@ -224,7 +224,6 @@ Partial Class frmXboxGamingGrp
         Me.Controls.Add(Me.txt1stName)
         Me.ForeColor = System.Drawing.Color.White
         Me.Name = "frmXboxGamingGrp"
-        Me.Text = "Form1"
         CType(Me.lstNumberOfMonBox, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

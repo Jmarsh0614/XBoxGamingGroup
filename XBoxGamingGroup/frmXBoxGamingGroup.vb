@@ -51,7 +51,7 @@ Public Class frmXboxGamingGrp
         If intLstNumberOfMonValue < 1 Or intLstNumberOfMonValue > 12 Then
             Dim strMsg As String = "Please enter in a number between 1 and 12"
             Dim strMsgTitle As String = "Invalid Entry"
-            MessageBox.Show(strMsg, strMsgTitle)
+            MsgBox(strMsg, , strMsgTitle) 'Can use MsgBox I forgot to add a second ( , ) between the two arguements
             lstNumberOfMonBox.Value = 1
 
         End If
@@ -60,7 +60,7 @@ Public Class frmXboxGamingGrp
         If txt1stName.Text = "" Or txtLastName.Text = "" Then
             Dim strNameMsg As String = "You did not enter the name fields correctly, use N/A where necessary"
             Dim strNameMsgTitle As String = "Incomplete Entry"
-            MessageBox.Show(strNameMsg, strNameMsgTitle)
+            MessageBox.Show(strNameMsg, strNameMsgTitle) 'Can also use MsgBox but it wanted to give me issues with this string for whatever reason
             txt1stName.Text = ""
             txtLastName.Text = ""
             txtMiddInitial.Text = ""
